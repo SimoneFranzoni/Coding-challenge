@@ -1,0 +1,87 @@
+body  {
+  /*Sfondo*/
+  background-image: url("Immagini/background.jpg");
+  background-size: cover;
+  font-family: "Constantia", serif;
+
+}
+
+main{
+  /*tutte le scritte diventano bianche*/
+  color: white;
+  /*riquadro nero*/
+  margin: 100px 1200px;
+  padding: 300px 300px;
+  font-size: 60px;
+  /*Uso rgba per la trasparenza*/
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+}
+
+.logo{
+  text-align: center;
+}
+
+h1{
+  color: rgb(57, 227, 0);
+  text-align: center;
+  line-height: 5px;
+}
+
+/*barra dei bottoni*/
+.barra1{
+  background-color: rgb(57, 227, 0);
+  border-radius: 2px;
+  line-height: 180px;
+}
+
+.bottoni{
+  text-align: center;
+}
+
+.button1{
+  height: auto;
+  width: auto;
+  font-size: 50px;
+}
+
+.button2{
+  height: auto;
+  width: auto;
+  font-size: 50px;
+}
+
+.button3{
+  height: auto;
+  width: auto;
+  font-size: 50px;
+}
+
+li{
+  list-style-type: square;
+}
+
+h2{
+  line-height: 20px;
+}
+
+.barra2{
+  background-color: rgba(250, 160, 5, 0.75);
+  width: 1000px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.barra3{
+  background-color: rgba(57, 227, 0, 0.75);
+  width: 1800px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.barra4{
+  background-color: rgba(247, 25, 5, 0.75);
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+}
